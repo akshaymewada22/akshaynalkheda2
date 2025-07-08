@@ -1,0 +1,18 @@
+{
+  "mandirName": "Nalkheda Mandir",
+  "location": "Madhya Pradesh",
+  "about": [
+    {
+      "title": "History",
+      "description": "This temple has a rich cultural heritage..."
+    },
+    {
+      "title": "Pooja Details",
+      "description": "Daily poojas start from 6 AM with morning aarti..."
+    },
+    {
+      "title": "Temple Schedule",
+      "description": "Morning: 6 AM – 12 PM, Evening: 4 PM – 9 PM"
+    }
+  ]
+}
