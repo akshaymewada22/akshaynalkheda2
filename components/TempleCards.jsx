@@ -4,11 +4,14 @@ import { Box, Typography, Card, CardContent, Grid } from '@mui/material';
 import TempleIcon from '@mui/icons-material/TempleHindu';
 
 const temples = [
-  {
-    name: 'Shree Chintaman Ganesh',
-    description: 'Chintaman Ganesh is the biggest temple of Lord Ganesha in Ujjain.',
-    gradient: 'linear-gradient(to right, #43cea2, #185a9d)',
+
+    {
+    name: "Shree Chintaman Ganesh",
+    description: "Chintaman Ganesh is the biggest temple of Lord Ganesha in Ujjain.",
+    gradient: "linear-gradient(to right, #43cea2, #185a9d)"
   },
+   
+
   {
     name: 'Shree Harsiddhi Mata',
     description: 'One of the 51 major Shaktipeeths of India, situated near Mahakaleshwar Temple.',
@@ -37,11 +40,11 @@ const TempleCards = () => {
         alignItems: 'center',
       }}
     >
-      <Box sx={{ width: '90%' }}>
+      <Box sx={{ width: '100%' }}>
         <Grid container spacing={4} justifyContent="center">
           {temples.map((temple, index) => (
-            <Grid item xs={12} sm={6} md={3} key={index}>
-              <Card
+            <Grid item xs={12} sm={6} md={3} key={index} >
+              <Card 
                 sx={{
                   borderRadius: 3,
                   boxShadow: 3,

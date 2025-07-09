@@ -37,6 +37,10 @@ import { Box } from "@mui/material";
 import TempleCards from "./components/TempleCards";
 import History from "./components/History";
 import PoojaAartiSection from "./components/pooja";
+import Newsdata from "./components/Newsdata";
+
+
+
 
 const App = () => (
   <Box sx={{ pb: 6 }}>
@@ -45,6 +49,7 @@ const App = () => (
    <TempleCards/>
    <History/>
    <PoojaAartiSection/>
+   <Newsdata/>
     <About />
     <Gallery />
     <Contact />
